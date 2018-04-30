@@ -32,7 +32,7 @@ class ImagemagickAT706 < Formula
   deprecated_option "with-jp2" => "with-openjpeg"
 
   depends_on "pkg-config" => :build
-  depends_on "libtool" => :run
+  depends_on "libtool"
   depends_on "xz"
 
   depends_on "jpeg" => :recommended
